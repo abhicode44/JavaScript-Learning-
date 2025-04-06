@@ -1,0 +1,21 @@
+p{
+    display: inline-flex;
+    border: 4px solid;
+    height : 50px;
+    width : 50px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+
+.green{
+    background-color: green;
+}
+
+.Red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
