@@ -1,0 +1,115 @@
+/* General Reset & Font */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .actions button {
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('images/hero.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Search Box in Hero */
+  .search-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    z-index: 10;
+  }
+  
+  .search-box input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .search-box button {
+    padding: 10px 15px;
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* Overlay Cards in Hero */
+  .hero .card {
+    border-radius: 15px;
+    padding: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .hero .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .hero .card p {
+    color: #7c3aed;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+ 
+  /* Contact Section */
+  .contact {
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Fixes */
+  @media (max-width: 768px) {
+    .search-box input {
+      width: 100%;
+    }
+  
+    .hero {
+      height: 600px;
+    }
+  }
+  
